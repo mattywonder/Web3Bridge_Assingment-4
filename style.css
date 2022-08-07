@@ -18,7 +18,7 @@ p {
   background-repeat: no-repeat;
   background-color: hsl(225, 100%, 98%);
   width: 1440px;
-  margin: 0 auto;
+  margin: 32px auto;
   display: flex;
   justify-content: center;
   padding: 145px 0;
