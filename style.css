@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.main-container {
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 98%);
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 145px 0;
+}
+
+.card {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  width: 400px;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card-body {
+  text-align: center;
+  padding: 0 35px;
+}
+
+.card-body h1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  /* text-align: center; */
+  font-size: 30px;
+}
+
+.para-1 {
+  margin-bottom: 20px;
+  /* text-align: center; */
+}
+
+.music-annual {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  text-align: left;
+}
+
+.main-annual-change {
+  display: flex;
+  justify-content: space-around;
+  background-color: hsl(225, 100%, 98%);
+  padding: 10px 0;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.annual-year h3 {
+  font-size: 15px;
+}
+
+.change:link,
+.change:visited {
+  font-size: 14px;
+}
+
+.change:hover,
+.change:active {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.but {
+  margin-bottom: 25px;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  padding: 13px 0;
+  width: 330px;
+  border-radius: 8px;
+  box-shadow: 0 15px 12px 0px rgba(4, 90, 220, 0.341);
+}
+
+.but:hover,
+.but:active {
+  cursor: pointer;
+  background-color: hsl(223, 47%, 23%);
+  box-shadow: 0 15px 12px 0px rgba(4, 90, 220, 0.341);
+}
+
+.cancel {
+  padding-bottom: 30px;
+}
+
+.cancel a:link,
+.cancel a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(76, 76, 76);
+}
+
+.cancel a:hover,
+.cancel a:active {
+  color: #000;
+}
